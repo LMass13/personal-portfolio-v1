@@ -17,8 +17,8 @@
     h5,
 
     h6{
-        font-family: 'Raleway', sans-serif;
-        font-weight:700;
+        font-family: 'Roboto', sans-serif;
+        font-weight:300;
         text-transform:uppercase;
         color:#ffffff
     }
@@ -40,9 +40,9 @@
 
     .subheading{
         text-transform:uppercase;
-        font-weight:500;
-        font-family: 'Raleway', sans-serif;
-        font-size:1.5rem
+        font-weight:300;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
     }
     
     .social-icons a{
