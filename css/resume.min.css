@@ -5,12 +5,14 @@
  */body{
     font-family: 'Raleway', sans-serif;
     padding-top:54px;
-    color: white
+    color: #164080
 }
 @media (min-width:992px){
     body{padding-top:0;padding-left:17rem}
 }
-    h1,
+    h1{
+        text-transform: uppercase;
+    }
     h2,
     h3,
     h4,
@@ -20,7 +22,7 @@
         font-family: 'Roboto', sans-serif;
         font-weight:300;
         text-transform:uppercase;
-        color:#ffffff
+        columns: #83e0e0;
     }
 
     h1
@@ -49,7 +51,7 @@
         display:inline-block;
         height:3.5rem;
         width:3.5rem;
-        background-color:#495057;
+        background-color:#164080;
         color:#fff!important;
         border-radius:100%;
         text-align:center;
@@ -63,7 +65,7 @@
     }
     
     .social-icons a:hover
-    {background-color:#5f147c
+    {background-color:#40bbe0
     }
     
     .dev-icons{
@@ -71,7 +73,7 @@
     }
     
     .dev-icons .list-inline-item i:hover{
-        color:#495057
+        columns: #40bbe0;
     }
     
     #sideNav .navbar-nav .nav-item .nav-link{
@@ -112,7 +114,7 @@
         #sideNav .navbar-brand .img-profile{
             max-width:10rem;
             max-height:10rem;
-            border:.3rem solid #6b1b8b;
+            border: 0.1rem solid #164080;
             filter: grayscale(100%);
 
         }
@@ -149,9 +151,10 @@
         padding-top:5rem!important;
         padding-bottom:5rem!important;
         max-width:75rem;
-        background-image: url("../img/colourburstcopy.png");
+        background-image: url("../img/colourburstblue.jpeg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-position: right top;
+        background-size: 70%;
     }
     
     section.resume-section .resume-item .resume-date{
@@ -176,22 +179,23 @@
     }
     
     .bg-primary{
-        background-color:#5f147c!important
+        background-image: linear-gradient(to bottom right, #83e0e0, #40bbe0);
     }
     
     .text-primary{
-        color:#ffffff!important
+        color:#164080!important;
     }
     
     a{
-        color:#ffffff
+        color:#0d2549;
+        font-weight: bold
     }
     
     a:active,a:focus,a:hover{
-        color:#5f147c}
+        color:#40bbe0}
 
 .btn.btn-primary{
-    background-color: #5f147c;
+    background-color: #40bbe0;
     color: white;
     border: white;
     font-size: 20px;
