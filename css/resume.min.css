@@ -157,6 +157,29 @@
         background-size: 70%;
     }
     
+    .educationtime{
+        font-style: italic;
+    }
+
+    p{
+        text-indent: 10px;
+    }
+
+    #experience{
+        background: #164080;
+        color: white;
+    }
+
+
+    #time-period{
+        color: white!important;
+        font-style: italic;
+    }
+
+    #lastname{
+        color: #0d2953!important;
+    }
+
     section.resume-section .resume-item .resume-date{
         min-width:none
     }
@@ -194,15 +217,11 @@
     a:active,a:focus,a:hover{
         color:#40bbe0}
 
-.btn.btn-primary{
+.submit{
     background-color: #40bbe0;
     color: white;
     border: white;
     font-size: 20px;
     padding: 10px 20px;
-
-}
-
-.time-period{
-    font-weight: bold
-}
+    border: 0.1rem; 
+} 

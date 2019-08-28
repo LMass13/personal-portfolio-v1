@@ -30,7 +30,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Layth N Massoud</span>
+      <span class="d-block d-lg-none">Layth Massoud</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/headshot.png" alt="">
       </span>
@@ -67,7 +67,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">Layth
-          <span class="text-primary">Massoud</span>
+          <span class="text-primary" id="lastname">Massoud</span>
         </h1>
         <br/>
         <div class="subheading mb-5">Flat 1 Cleveland Court · 86-90 Cleveland Street·
@@ -76,8 +76,8 @@
           <a href="mailto:layth@massoud.cc">layth@massoud.cc</a>
         </div>
         <br/>
-        <p class="lead mb-5">Hello, I am Layth and I am learning how to code.
-          <br/>This is my first personal portfolio page. Practic makes perfect amirite.</p>
+        <p class="lead mb-5">Hello, I am Layth and I am learning how to code
+          <br/> This is my first personal portfolio page. Practic makes perfect amirite.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/laythnm/">
             <i class="fab fa-linkedin-in"></i>
@@ -96,38 +96,40 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
-
+          <h2 class="mb-5">Projects</h2>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <img src="img/AstroLabsLogo.png">
             <h3 class="mb-0">Resume Page with Template</h3>
             <div class="subheading mb-3">Astrolabs Academy</div>
             <p> Using the Resume theme from Bootstrap to create my own Resume page</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary time-period">The Last Two Days</span>
+            <span class="text-primary time-period" id="time-period">The Last Two Days</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+              <img src="img/AstroLabsLogo.png">
             <h3 class="mb-0">Resume Page Without Template</h3>
             <div class="subheading mb-3">Astrolabs Academy</div>
             <p>Using skills we learned in the bootcamp to begin making our own resume page with the use of a theme</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary time-period">Saturday</span>
+            <span class="text-primary time-period" id="time-period">Saturday</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
+              <img src="img/AstroLabsLogo.png">
             <h3 class="mb-0">A Bit of Theory</h3>
             <div class="subheading mb-3">Astrolabs Academy</div>
             <p>First session where we ran through some theory about front ends, back ends, and the various languages one can learn</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary time-period">Last Wednesday</span>
+            <span class="text-primary time-period" id="time-period">Last Wednesday</span>
           </div>
         </div>
 
@@ -150,7 +152,7 @@
             <p>GPA: 3.6</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">September 2015 - October 2016</span>
+            <span class="text-primary educationtime">September 2015 - October 2016</span>
           </div>
         </div>
 
@@ -161,7 +163,7 @@
             <p>GPA: 4.0</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">September 2011 - July 2015</span>
+            <span class="text-primary educationtime">September 2011 - July 2015</span>
           </div>
         </div>
 
@@ -248,31 +250,21 @@
       <div class="w-100">
         <h2 class="mb-5">Contact Me</h2>
         <ul class="fa-ul mb-0">
-            <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputFirstName">First Name</label>
-                    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+            <form method="POST" action="https://formspree.io/layth@massoud.cc">
+              <div class="form-row">
+                    <label for="inputFirstName">Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="Your email">
                   </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputLastName">Last Name</label>
-                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
-                  </div>
-                </div>
-                <div class="form-group">
-                        <label for="inputEmail">Email Address</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
-                </div>
-                <div>
-                    <div class="form-group">
-                        <label for="inputMobile">Mobile Number</label>
-                        <input type="mobile" class="form-control" id="inputMobile" placeholder="+971">
-                </div>
-                <a class="btn btn-primary" href="mailto:layth@massoud.cc" role="button">Send</a>
-                </a>
+                  <br/>
+                    <div class="form-row">
+                    <label for="inputFirstName">Text</label>
+              <textarea name="message" class="form-control" placeholder="Full Name and Other Details"></textarea>
+              </div>
+              <br/>
+              <button type="submit" class="submit">Send</button>
+              </div>
             </form>
         </ul>
-      </div>
     </section>
 
   </div>
